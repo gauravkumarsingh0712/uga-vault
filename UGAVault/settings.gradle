@@ -1,0 +1,3 @@
+include ':app', ':pullRefreshLibrary', ':stickylistviewlibrary'
+include ':indicatorlibrary'
+project(':stickylistviewlibrary').projectDir = new File('library')

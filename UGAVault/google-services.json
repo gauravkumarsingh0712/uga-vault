@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "686542649197",
+    "firebase_url": "https://ugavault-f78a0.firebaseio.com",
+    "project_id": "ugavault-f78a0",
+    "storage_bucket": "ugavault-f78a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686542649197:android:7ed07640395bf076",
+        "android_client_info": {
+          "package_name": "com.ugavault.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686542649197-neuia82hhjin84ou5o340lmct4163chk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzNpTKtmQm3I4yBqjZrA62snrPgEbheA8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

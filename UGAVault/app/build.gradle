@@ -1,0 +1,90 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+        classpath 'com.google.gms:google-services:3.0.0'
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+apply plugin: 'sonar-runner'
+
+
+sonarRunner {
+    sonarProperties {
+        property "sonar.host.url", "http://localhost:9000" // Address of Sonar server
+        property "sonar.sources", "src" // Sources
+        property "sonar.projectName", "UGA Vault" // Name of your project
+        property "sonar.projectVersion", "0.2-SNAPSHOT" // Version of your project
+        property "sonar.projectDescription", "A wonderful project to analyse"
+        // Description of your project
+    }
+}
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.ugavault.android"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 11
+        versionName "1.8.3"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+/*configurations {
+    all*.exclude group: 'com.android.support', module: 'support-v4'
+}*/
+
+dependencies {
+    //    compile 'com.facebook.android:facebook-android-sdk:4.1.0'
+    compile('com.twitter.sdk.android:twitter:1.12.1@aar') {
+        transitive = true;
+    }
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/disklrucache-2.0.2.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/gcm.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+    compile files('libs/AF-Android-SDK-v2.3.1.19.jar')
+    compile files('libs/FlurryAnalytics-6.1.0.jar')
+    compile files('libs/volley.jar')
+    compile project(':stickylistviewlibrary')
+    compile project(':indicatorlibrary')
+    compile project(':pullRefreshLibrary')
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.facebook.android:facebook-android-sdk:4.6.0'
+    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    compile 'com.google.android.gms:play-services-analytics:9.0.0'
+    compile 'com.google.firebase:firebase-core:9.0.1'
+    compile 'com.google.firebase:firebase-analytics:9.0.0'
+    compile 'com.firebase:firebase-client-android:2.3.1'
+    compile 'com.google.android.gms:play-services-tagmanager:9.0.0'
+}
+
+apply plugin: 'com.google.gms.google-services'

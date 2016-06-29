@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "905684983450",
+    "project_id": "ugavault-deb2"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905684983450:android:7ed07640395bf076",
+        "android_client_info": {
+          "package_name": "com.ugavault.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf3BtnDMAhO3i1fMLqq2hTcnroAVymgBA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-77873527-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

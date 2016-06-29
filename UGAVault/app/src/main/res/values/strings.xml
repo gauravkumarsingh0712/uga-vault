@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_id">1382048512122348</string>
+    <string name="facebook_test_app_id">1643922295861554</string>
+
+    <string name="app_name">UGA Vault</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="featured">Featured</string>
+    <string name="opponents">Opponents</string>
+    <string name="players">Players</string>
+    <string name="coaches_era">Coaches Era</string>
+    <string name="favorites">Favorites</string>
+    <string name="email_support_feedback">support@ugavault.com</string>
+    <string name="email_support_subject">App support</string>
+    <string name="email_support_text">I need support with my UGA VAULT, here is what\'s going on&#8230; </string>
+    <string name="email_cliprequest">production@ugavault.com</string>
+    <string name="email_cliprequest_text">I wanted to request this clip for UGA VAULT&#8230; </string>
+    <string name="email_cliprequest_subject">Clip Request</string>
+    <string name="email_feedback_text">I have this really cool request or feature idea for THE UGA VAULT&#8230;</string>
+    <string name="email_feedback_subject">Feedback</string>
+    <string name="key_video_name">video_name</string>
+    <string name="key_video_category">video_category</string>
+
+    <string name="support_title">SOMETHING WENT WRONG</string>
+    <string name="support_sub_title">Briefly describe what happened.</string>
+    <string name="feedback_title">GENERAL FEEDBACK</string>
+    <string name="feedback_sub_title">We\'re always open to feedback. What\'s on your mind?</string>
+    <string name="clip_request_title">I HAVE A CLIP REQUEST</string>
+    <string name="clip_request_sub_title">What kind of clip/content are you looking for?</string>
+    
+    <string name="wait">Please wait...</string>
+	<string name="sync">Syncing with server...</string>
+	<string name="notifications">Notifications</string>
+    <string name="notification_message">UGA Vault would like to send you notifications</string>
+    <string name="notification_question">Do you want UGAVault to receive notifications?</string>
+    <string name="profile">Profile</string>
+    <string name="description">Media Controls</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="facebookstring">This is the login page for Facebook</string>
+
+    <string name="url">https://mediasvcr0q7zkllkzkq6.blob.core.windows.net/asset-8712445d-1500-80c3-8a30-f1e4ea4afad3/(2010%20Arkansas)%20TD%20King.mp4?sv=2012-02-12\uf000sr=c\uf000si=399953b5-4780-44ab-83e3-bb2bcc3f2a5b\uf000sig=E%2FunWOZ2Q1L4ZejsvAy90bj3bP2yPVA%2BBkrP6NEcRn0%3D\uf000st=2015-04-24T06%3A52%3A21Z\uf000se=2115-03-31T06%3A52%3A21Z</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_webview_test">WebviewTestActivity</string>
+
+    <string-array name="pull_colors">
+        <item>@color/apptheme_color</item>
+        <item>@color/app_dark_grey</item>
+        <item>#FFFFFF</item>
+        <item>@color/apptheme_color</item>
+    </string-array>
+    <string name="title_activity_base">BaseActivity</string>
+    <!--  SETTINGS FOR ACCESSING YOUR ACCOUNT -->
+    <string name="mc_api_key">e9bbd18dd1436459e53920c2e186fa39-us5</string>
+    <string name="mc_list_id">8980ffb552</string>
+
+
+    <string name="categoryId">Games</string>
+    <string name="actionId">Me tera hero</string>
+    <string name="labelId">Buy Tickets Button Pressed!</string>
+
+</resources>
